@@ -3,6 +3,6 @@ time
 re
 tensorflow
 numpy
-PIL
+pillow
 pandas
 requests
