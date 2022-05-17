@@ -1,5 +1,5 @@
 import streamlit as st
-import time, re
+import re
 import tensorflow as tf
 import numpy as np
 from PIL import Image
@@ -22,8 +22,6 @@ def img_process(image):
         out = data.loc[data['label']==out, '种类'].to_string(index=False)
         out = f'>>>识别结果:这是{out}'
     return image, out
-
-t = time.localtime()
 
 st.set_page_config(
     page_title='花卉识别',    #页面标题
