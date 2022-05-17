@@ -1,5 +1,5 @@
 streamlit
-re==2.2.1
+regex
 tensorflow
 numpy
 pillow
