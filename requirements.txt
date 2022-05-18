@@ -1,0 +1,7 @@
+streamlit
+regex
+tensorflow
+numpy
+pillow
+pandas
+requests
